@@ -32,6 +32,8 @@
 
 # 시스템 아키텍쳐
 <img src="image/image.png" alt="alt text" width="70%" height="70%"/>
+<br>
+
 ## 1. Naming server
 - Spring cloud Netflix Eureka 서버를 네이밍 서버로 사용하여 마이크로서비스의 인스턴스를 등록하고 관리해주는 역할을 담당
 ## 2. API Gateway
