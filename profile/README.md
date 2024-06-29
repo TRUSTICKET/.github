@@ -36,26 +36,34 @@
 
 ## 1. Naming server
 - Spring cloud Netflix Eureka 서버를 네이밍 서버로 사용하여 마이크로서비스의 인스턴스를 등록하고 관리해주는 역할을 담당
+- <a href="https://github.com/TRUSTICKET/TRUSTICKET_NAMING_SERVER">Repository</a>
 ## 2. API Gateway
 - Spring API Gateway를 사용하여 엔드포인트를 통합시키고 여러개의 마이크로서비스에 라우팅을 수행
 - 권한이 필요한 API에 대해서 Authorization 수행 (JWT)
+- <a href="https://github.com/TRUSTICKET/TRUSTICKET_GATEWAY">Repository</a>
 ## 3. Microservices
-### 3-1. Core Service
+## 3-1. Core Service
 - 회원 관련 API 제공 (회원가입, 로그인)
-- 사용자의 예매 요청을 대기열 큐에 넣음
-### 3-2. Payment Service
+- 사용자의 예매 요청을 대기열 큐에 넣음 (해당 기능을 회원 서비스와 분리하면 좋았을 것 같습니다)
+- <a href="https://github.com/TRUSTICKET/TRUSTICKET-CORE">Repository</a>
+## 3-2. Payment Service
 - 결제 관련 처리 (결제이력)
 - 연동된 IamPort API의 결제 이력 결과를 저장하여 사용자들의 결제 내역을 추적할 수 있도록 함
 - 성공적으로 결제 처리 시 메시지 버스를 통해서 Booking Service의 예매 상태를 결제 확정 상태로 갱신함
-### 3-3. Content Service
+-  <a href="https://github.com/TRUSTICKET/TRUSTICKET-PAYMENT">Repository</a>
+## 3-3. Content Service
 - 공연 이벤트 내역 조회를 담당하는 API
-### 3-4. Booking Service
+-  <a href="https://github.com/TRUSTICKET/TRUSTICKET-CONTENT">Repository</a>
+## 3-4. Booking Service
 - 예매 처리를 담당하는 서비스
 - Core Service로부터 등록된 대기열 큐의 사용자를 순차적으로 처리
-### 3-5. Resources Service
+-  <a href="https://github.com/TRUSTICKET/TRUSTICKET-BOOKING">Repository</a>
+## 3-5. Resources Service
 - 이미지 파일에 대한 업로드 및 제공을 담당
+- <a href="https://github.com/TRUSTICKET/TRUSTICKET-RESOURCES">Repository</a>
 ## 4. Frontend
 - Angular를 사용하여 Single page Application 사용자 인터페이스 구현
+-  <a href="https://github.com/TRUSTICKET/TRUSTICKET-FRONT">Repository</a>
 
 <br><br>
 
