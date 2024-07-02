@@ -21,6 +21,8 @@
 
 <div>
 <img src="https://img.shields.io/badge/Spring Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white">
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=apache&logoColor=white"> 
+<img src="https://img.shields.io/badge/MaridDB-003545?style=flat-square&logo=apachekafka&logoColor=white">
 <img src="https://img.shields.io/badge/Apache Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white">
 <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white">
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
