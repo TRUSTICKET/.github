@@ -1,5 +1,8 @@
 # Trusticket
 
+
+<img width="1351" height="688" alt="image" src="https://github.com/user-attachments/assets/6525d276-ed85-45ec-bb11-08737fd1a69c" />
+
 ## 대규모 트래픽을 고려한 암표 방지 티켓 예매 플랫폼
 ### 해커톤 개인 프로젝트
 2024년 6월 24일 ~ 2024년 6월 28일까지 진행된 비대면+대면 대학생 해커톤에 참석하여 만든 작품입니다. <br>
